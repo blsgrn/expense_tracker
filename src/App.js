@@ -8,10 +8,12 @@ function App() {
   return (
     <>
       <Header />
-      <Data />
-      <Category />
-      <Notes />
-      <Display />
+      <div className="container">
+        <Data />
+        <Category />
+        <Notes />
+        <Display />
+      </div>
     </>
   );
 }
