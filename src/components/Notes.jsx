@@ -1,9 +1,12 @@
+import Card from "../shared/Card";
 function Notes() {
   const text = "vegetables for cooking";
   return (
-    <>
-      <input type="text" value={text} />;<button className="btn">Submit</button>
-    </>
+    <div className="notes">
+      <label>Notes </label>
+      <input type="text" value={text} />
+      <button className="btn">Submit</button>
+    </div>
   );
 }
 

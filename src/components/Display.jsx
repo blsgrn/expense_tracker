@@ -1,10 +1,12 @@
-function Display({ date, amt, note }) {
+import Card from "../shared/Card";
+import { useState } from "react";
+
+function Display(entry) {
+  console.log(entry);
   return (
-    <div className="display">
-      <div className="dis-date">{date}</div>
-      <div className="dis-amt">{amt}</div>
-      <div className="dis-note">{note}</div>
-    </div>
+    <Card>
+      <div className="display"></div>
+    </Card>
   );
 }
 export default Display;

@@ -1,11 +1,13 @@
+// import Card from "../shared/Card";
+
 function Category() {
-  const selector1 = <div>grocery</div>;
-  const selector2 = <div>travelling</div>;
-  const selector3 = <div>health</div>;
-  const selector4 = <div>shopping</div>;
-  const selector5 = <div>electronics</div>;
-  const selector6 = <div>building material</div>;
-  const selextor7 = <div>others</div>;
+  const selector1 = <div className="list">grocery</div>;
+  const selector2 = <div className="list">travelling</div>;
+  const selector3 = <div className="list">health</div>;
+  const selector4 = <div className="list">shopping</div>;
+  const selector5 = <div className="list">electronics</div>;
+  const selector6 = <div className="list">materials</div>;
+  const selextor7 = <div className="list">others</div>;
 
   return (
     <div className="category">
