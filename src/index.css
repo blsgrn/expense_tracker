@@ -17,16 +17,18 @@ ul {
 }
 
 .container {
+  flex: 1;
+  text-align: center;
   max-width: 768px;
   margin: auto;
   padding: 0 20px;
 }
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 70px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -47,5 +49,55 @@ header {
 .card h2 {
   font-size: 22px;
   font-weight: 600;
+  text-align: center;
+}
+.dis-amt {
+  position: relative;
+  background: #f4f4f4;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 19px;
+  border: 1px #eee solid;
+  transition: 0.3s;
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.date {
+  flex: 1 1 0%;
+  text-align: center;
+}
+.amount {
+  flex: 1 1 0%;
+  text-align: center;
+}
+.notes {
+  flex: 1 1 0%;
+  text-align: center;
+  margin-top: 20px 5px;
+  padding: 6px 12px;
+}
+.category {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.list {
+  flex: 1 1 0%;
+  background-color: #519657;
+  color: #000;
+  border: 2px solid #005b9f;
+  border-radius: 10px;
+  padding: 2px 5px;
+  margin: 5px;
+  max-width: fit-content;
   text-align: center;
 }
