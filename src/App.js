@@ -1,8 +1,8 @@
-import Category from "./Category";
-import Data from "./Data";
-import Display from "./Display";
-import Header from "./Header";
-import Notes from "./Notes";
+import Category from "./components/Category";
+import Data from "./components/Data";
+import Display from "./components/Display";
+import Header from "./components/Header";
+import Notes from "./components/Notes";
 
 function App() {
   return (
